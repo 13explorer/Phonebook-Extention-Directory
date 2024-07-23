@@ -1,0 +1,188 @@
+/* General styles */
+body {
+    font-family: monospace, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo styles */
+.logoLeft {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some margin to separate the logo from the header text */
+    position: absolute;
+    top: 10px; /* Adjust the top position to your preference */
+    left: 10px; /* Adjust the left position to your preference */
+}
+
+/* Logo Right style */
+.logoRight {
+    width: 150px;
+    height: auto;
+    margin-right: 10px; /* Add some margin to separate the logo from the header text */
+    position: absolute;
+    top: 10px; /* Adjust the top position to your preference */
+    right: 10px; /* Adjust the left position to your preference */
+}
+
+/* Logo styles */
+.logo3 {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some margin to separate the logo from the header text */
+    position: absolute;
+    top: 10px; /* Adjust the top position to your preference */
+    left: 10px; /* Adjust the left position to your preference */
+}
+
+/* Search input styles */
+#searchInput {
+    margin: 1px; /* Adjust margins as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    padding: 10px; /* Optional: Adjust padding for better appearance */
+    border: 1px solid #ccc; /* Optional: Add a border for clarity */
+}
+/* Location select styles */
+#locationSelect {
+    margin: 1px; /* Adjust margins as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    padding: 10px; /* Optional: Adjust padding for better appearance */
+    border: 1px solid #ccc; /* Optional: Add a border for clarity */
+}
+#locationSelect:focus {
+    outline: none; /* Optional: Remove focus outline */
+}
+/* Label styles */
+label[for="locationSelect"] {
+    font-weight: bold; /* Example: Make the label text bold */
+    font-size: 20px; /* Example: Increase the font size */
+    margin-right: 1px; /* Example: Add right margin */
+    /* Additional styles as needed */
+}
+/* Header styles */
+header {
+    background-color: #084e91;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h1 {
+    color: #fcc81a;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 6);
+    text-align: center;
+    padding: 10px 20px;
+}
+header select {
+    background-color: #fff; /* Set background color */
+    color: #000; /* Set text color */
+    border: 1px solid #ccc; /* Set border color */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size */
+    text-align: ;
+}
+
+/* Search bar styles */
+header select,
+header input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 6px;
+    display: inline-block; /* or inline-flex */
+    vertical-align: middle; /* Align items vertically */
+}
+
+
+/* Main content styles */
+main {
+    display: flex; /* Display tables side by side */
+    justify-content: space-around; /* Evenly space the tables */
+    padding: 20px;
+}
+
+/* Table container styles */
+.container {
+    width: 45%; /* Adjust width as needed */
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 2px solid #ccc; /* Add border to the table */
+}
+
+/* Table cell styles */
+th, td {
+    padding: 12px; /* Adjust padding as needed */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table header styles */
+th {
+    text-align: center;
+    font-size: large;
+    background-color: #f2f2f2;
+    border: 2px solid #000000; /* Add border to table header cells */
+}
+
+/* Border between name and extension columns */
+td:nth-child(1) {
+    border-right: 1px solid #ddd; /* Add border to right of name column */
+}
+
+/* Table row styles */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+/* Office info section styles */
+#officeInfoSection {
+    color: #084e91; /* Set font color to match header background color */
+    font: bold;
+}
+
+/* Wider search bar */
+header select, header input {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /* Adjust the width as needed */
+}
+#officeInfoSection {
+    color: #084e91; /* Set font color to match header background color */
+    font-weight: bold;
+    margin-top: 10px;
+    border: 2px solid #084e91; /* Border color matching header background */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px; /* Slightly rounded corners */
+    width: fit-content; /* Wrap around content */
+    margin: 20px auto 0 auto; /* Center align and add top margin */
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.office-details {
+    /* Add styling for office details if needed */
+}
+/* Style the link */
+a {
+    color: #000000; /* Change link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style the link on hover */
+a:hover {
+    color: #0056b3; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
