@@ -51,12 +51,11 @@ To add new extensions, update the `employees.json` file in the `/data` directory
     "location": "Location 1"
 }
 
+```
 firstname: The first name of the employee.
 lastname: The last name of the employee.
 extension: The phone extension number for the employee.
 location: The location associated with the employee.
-```
-
 
 <select id="locationSelect">
     <option value="Location 1">Location 1</option>
