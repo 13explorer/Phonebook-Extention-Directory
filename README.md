@@ -24,9 +24,9 @@ The Employee Phonebook is a simple web application that allows users to view emp
 The project has the following directory structure:
 
 ```
-SSI-WEBINT
+webserver
 ├── wwwroot
-│   └── Supreme Directory
+│   └── Phonebook Directory
 │       ├── css
 │       │   └── style.css
 │       ├── data
