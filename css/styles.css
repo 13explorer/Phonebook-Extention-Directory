@@ -1,3 +1,18 @@
+:root {
+    --primary-color: var(--primary-color);
+    --secondary-color: #fcc81a;
+    --text-color: #ffffff;
+    --background-color: #f4f4f4;
+    --border-color: #ccc;
+    --table-header-color: #f2f2f2;
+    --table-row-color: #f2f2f2;
+    --table-row-hover-color: #ddd;
+    --office-info-color: var(--primary-color);
+    --link-color: #000000;
+    --link-hover-color: #0056b3;
+    --shadow-color: rgba(0,0,0,0.1);
+}
+
 /* General styles */
 body {
     font-family: monospace, sans-serif;
